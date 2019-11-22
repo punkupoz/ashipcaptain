@@ -10,6 +10,7 @@ module.exports = {
   },
   pathPrefix: '/',
   plugins: [
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -38,6 +39,7 @@ module.exports = {
             resolve: 'gatsby-remark-prismjs',
             options: {
               inlineCodeMarker: '÷',
+              // showLineNumbers: true,
             },
           },
           'gatsby-remark-copy-linked-files',

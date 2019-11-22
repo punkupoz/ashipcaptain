@@ -6,6 +6,7 @@ export default class HTML extends React.Component {
     return (
       <html {...this.props.htmlAttributes}>
         <head>
+          <link href="https://fonts.googleapis.com/css?family=Baloo|Quicksand&display=swap" rel="stylesheet"/>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta

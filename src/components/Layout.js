@@ -33,6 +33,7 @@ class Layout extends React.Component {
           <Link
             style={{
               boxShadow: 'none',
+              fontFamily: "'Baloo', cursive",
               textDecoration: 'none',
               color: 'var(--textTitle)',
             }}
@@ -57,7 +58,8 @@ class Layout extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              color: 'rgb(255, 167, 196)',
+              fontFamily: "'Baloo', cursive",
+              color: 'var(--main-primary)',
             }}
             to={'/'}
           >
