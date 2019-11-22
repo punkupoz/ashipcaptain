@@ -15,7 +15,7 @@ Yaml hightlight
 this: is
 a:
   - yaml: file
-  - yeet: yes
+  - yeet: no
 ```
 
 Golang hightlight
