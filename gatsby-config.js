@@ -5,7 +5,7 @@ module.exports = {
     description: 'Personal blog',
     siteUrl: 'https://ashipcaptain.io',
     social: {
-      twitter: '@paulqbaonguyen',
+      twitter: '@paulqnguyen',
     },
   },
   pathPrefix: '/',
