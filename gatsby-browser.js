@@ -1,5 +1,6 @@
 // gatsby-browser.js
 import React from 'react';
+require('prismjs/plugins/line-numbers/prism-line-numbers.css');
 
 // Forked Gatsby default to not remount on switches between
 // translated versions of the same page.

@@ -31,6 +31,9 @@ Wordpress2016.overrideThemeStyles = () => ({
   'li code': {
     fontSize: '1rem',
   },
+  'h1, h2, h3, h4, h5, h6, p, li, a': {
+    fontFamily: "'Quicksand', sans-serif",
+  },
   blockquote: {
     color: 'inherit',
     borderLeftColor: 'inherit',
