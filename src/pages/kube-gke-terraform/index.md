@@ -52,7 +52,7 @@ gcloud config set project kube-gke-terra
 ```
 Then wait for the API to ready... Great, we have a project ready.
 
-## 2. Deploy a Kubernetes cluster with Terraform
+## 3. Deploy a Kubernetes cluster with Terraform
 
 Let's look at the folder structure
 
