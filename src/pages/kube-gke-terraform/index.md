@@ -6,7 +6,6 @@ spoiler: Run the Cluster on GKE
 
 # Overview
 There are a lot of articles on the internet explaining [Kubernetes](https://kubernetes.io/) already, so I will skip that part. In this blog, we will deploy a Kubernetes cluster into a Google Kubernetes Engine cluster with Terraform.
-Relative [link](/relative/)
 
 To keep the simplicity of this blog, I will skip the installation of the tools. I will use a general used folder structure for Terraform, you should make changes to suit your needs.
 
@@ -294,3 +293,5 @@ Hello, World!
 ```
 
 Great! We have deployed our Hello, world! app on GKE.
+
+[Rel](/kube-gke-terraform/)
