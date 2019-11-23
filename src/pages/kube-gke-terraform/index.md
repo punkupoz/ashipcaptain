@@ -145,7 +145,7 @@ resource "google_container_node_pool" "primary_preemptible_nodes" {
 ```
 We will be using [preemptible](https://cloud.google.com/kubernetes-engine/docs/how-to/preemptible-vms) nodes to reduce the cost for this blog.
 
-The trivial codes such as variables can be found at:
+The trivial codes such as variables can be found at: https://github.com/punkupoz/terra-ship
 
 **Ok let's use Terraform.**
 
