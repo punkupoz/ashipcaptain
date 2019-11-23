@@ -180,6 +180,7 @@ class BlogPostTemplate extends React.Component {
                   Discuss on Twitter
                 </a> */}
                 {` • `}
+                You can help me improve this blog by&nbsp;
                 <a href={editUrl} target="_blank" rel="noopener noreferrer">
                   Edit on GitHub
                 </a>
