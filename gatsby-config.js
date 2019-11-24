@@ -10,6 +10,18 @@ module.exports = {
   },
   pathPrefix: '/',
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `A Ship Captain`,
+        short_name: `ShipCapt`,
+        start_url: `/`,
+        background_color: `#4dd0e1`,
+        theme_color: `#4dd0e1`,
+        display: `standalone`,
+        icon: 'src/assets/favicon.png',
+      },
+    },
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
