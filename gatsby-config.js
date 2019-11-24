@@ -14,7 +14,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `A Ship Captain`,
-        short_name: `ShipCapt`,
+        short_name: `A Ship Captain`,
         start_url: `/`,
         background_color: `#4dd0e1`,
         theme_color: `#4dd0e1`,
