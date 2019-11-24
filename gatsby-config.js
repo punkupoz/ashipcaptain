@@ -144,19 +144,6 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `A ship captain`,
-        short_name: `asc`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#ffa7c4`,
-        display: `minimal-ui`,
-        icon: `src/assets/icon.png`,
-        theme_color_in_head: false,
-      },
-    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-plugin-typography',
