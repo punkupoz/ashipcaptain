@@ -14,7 +14,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `A Ship Captain`,
-        short_name: `ShipCapt`,
+        short_name: `A Ship Captain`,
         start_url: `/`,
         background_color: `#4dd0e1`,
         theme_color: `#4dd0e1`,
@@ -142,19 +142,6 @@ module.exports = {
             title: "Paul Nguyen's RSS feed for A ship captain",
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `A ship captain`,
-        short_name: `asc`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#ffa7c4`,
-        display: `minimal-ui`,
-        icon: `src/assets/icon.png`,
-        theme_color_in_head: false,
       },
     },
     `gatsby-plugin-react-helmet`,
