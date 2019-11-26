@@ -55,7 +55,7 @@
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
     "now-build": "gatsby build",
-    "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) ashipcaptain.now.sh",
+    "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) shipcapt.com",
     "dry": "yarn build && cp now.json public/ && cd public && now",
     "js-to-jsx": "node src/utils/js-to-jsx"
   },

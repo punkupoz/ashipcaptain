@@ -3,7 +3,7 @@ module.exports = {
     title: 'A ship captain',
     author: 'Paul Nguyen',
     description: 'Personal blog',
-    siteUrl: 'https://ashipcaptain.now.sh',
+    siteUrl: 'https://shipcapt.com',
     social: {
       twitter: '@paulqnguyen',
     },
