@@ -16,7 +16,7 @@ To keep the simplicity of this blog, I will skip the installation of the tools. 
 
 # Let's get started
 ## 1. Install the tools
-In this blog, three tools will be used.
+In this blog, five tools will be used.
 - [gcloud](https://cloud.google.com/sdk/install): the command line interface for Google Cloud Platform.
 - [terraform](https://www.terraform.io/downloads.html): an Infrastructure as Code provisioner.
 - [kubectl](https://www.terraform.io/downloads.html): a command line interface to control Kubernertes. Terraform comes with Kubernetes provider. However, they have some limitations such as not having [Custom Resource Definition](https://github.com/terraform-providers/terraform-provider-kubernetes/issues/215). I would recommend learning [Helm](https://helm.sh/) myself, but using `kubectl` is sufficient for this blog.
