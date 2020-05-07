@@ -34,6 +34,8 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          'gatsby-remark-mermaid',
+
           {
             resolve: `gatsby-remark-images`,
             options: {
