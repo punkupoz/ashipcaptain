@@ -208,7 +208,7 @@ WORKDIR /
 COPY --from=builder /build/app .
 EXPOSE 8080
 
-CMD ["/app"]
+ENTRYPOINT ["/app"]
 ```
 
 The image is available on [Dockerhub](https://hub.docker.com/repository/docker/punkupoz/go-hello-world).
