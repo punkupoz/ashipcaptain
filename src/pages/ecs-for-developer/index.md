@@ -171,6 +171,7 @@ What we need to do here:
 - In the bottom window, select its security group, in my case, it's this.
 ![security group](./sg.png)
 - Click on the security group, edit inbound rule to allow `32768 - 65535` from the load balancer security group. Why is the range? Well, remember we left Host port empty, that signals we use Dynamic port? The ephemeral ports are use to do that.
+- Remove inbound rule for port 80 as well.
 ![security group 2](./sgg.png)
 - Save it.
 
